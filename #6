@@ -1,0 +1,31 @@
+# Using list comprehensions create the following lists
+# A List elements as square of all even numbers from 51 to 75
+# B List elements as factors of 3 from 101 to 140
+# C List elements as consonants from a string input by a user
+
+# A
+list = []
+for i in range(50, 74):
+if i%2 != 0:
+list.append(i*i)
+print(list)
+
+#7 B
+list2 = []
+for j in range(100, 139):
+if j%3 == 0:
+list2.append(j)
+print(list2)
+
+# 7 C
+list3 = []
+x = str(input("Enter desired string: "))
+for k in x:
+if k != "a":
+if k != "e":
+if k != "i":
+if k != "o":
+if k != "u":
+list3.append(k)
+
+print(list3)
