@@ -1,0 +1,16 @@
+# To Write a program to demonstrate the use of index, count,
+# sort, sorted and reverse built in functions.
+
+x = "a quick brown fox jumps over the lazy dog, there are also many other dogs"
+y = ["Cherry", "Apple", "Banana","Dragonfruit"]
+
+a = x.count("dog")
+print(a)
+
+b = x.index("dog")
+print(b)
+
+print(y.sort()) #sorts by ascending order
+
+d = sorted(y, reverse = True)
+print(d)
