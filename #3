@@ -1,4 +1,4 @@
-# To Find the largest/smallest number in a list (without using built in functions)
+# To Find the largest/smallest number in a list
 
 lst = []
 num = int(input('How many numbers: '))
